@@ -1,0 +1,6 @@
+[submodule "braindecode"]
+	path = braindecode
+	url = github:robintibor/braindecode.git
+[submodule "auto-eeg-diagnosis-example"]
+	path = auto-eeg-diagnosis-example
+	url = github:robintibor/auto-eeg-diagnosis-example.git
