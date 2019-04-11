@@ -5,13 +5,12 @@ import mne
 import numpy as np
 from mne.datasets import sample
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import cross_val_score, KFold, train_test_split
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import cross_val_score, KFold
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 from mne_features.feature_extraction import extract_features
-
 
 def preprocess_dataset(output_dir):
     ch_names = np.array([
